@@ -1,0 +1,22 @@
+iframe#yomisama-popup {
+    all:              initial;
+    border:           1px solid #999;
+    box-shadow:       0 0 0px rgba(0, 0, 0, .5);
+    height:           250px;
+    position:         fixed;
+    resize:           both;
+    visibility:       hidden;
+    width:            400px;
+    z-index:          2147483647;
+    background-color: #1a1a00;
+}
+
+div#yomisama {
+    overflow: auto;
+    color: #cccc00;
+}
+
+div#yomisama a {
+    color: #aaaa00;
+    text-decoration: none;
+}
